@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&family=Noto+Sans:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+  font-family: 'Open Sans', 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+  color: #505962;
+  overflow-x: hidden;
+  font-weight: 300;
+}
+hr {
+  width: 100%;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+.offset:before {
+  height: 3.7rem;
+  margin-top: -3.7rem;
+  content: "";
+  display: block;
+}
+#logo {
+  max-width: 32px;
+  max-height: 32px;
+  margin-right: .8rem;
+}
+#aboutContainer {
+  padding: 3rem 0 4rem;
+}
+
+#experienceContainer{
+  padding: 3rem 0 2.4rem;
+  background-color: rgba(0,0,0,0.03);
+}
+#memeContainer {
+  background-color: rgba(0,0,0,0.03);
+}
+#contactContainer{
+  padding:3rem 0 4.5rem;
+}
+/*--- Navbar --*/
+.navbar {
+
+  font-size: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, .8)!important;
+  width: 100vw;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: .4rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+   color : #ffaa00;       /* #1ebba3; */
+}
+.nav-item {
+  font-weight: 300;
+}
+
+ /*--- Slider --*/
+
+ .carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+
+ }
+ .carousel-caption {
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+  width: 100%;
+  right: 0;
+  left: 0;
+ }
+ .carousel-caption.text-center{
+   width: 70%;
+   margin: auto;
+ }
+ .carousel-caption h1 {
+   font-size: 3.8rem;
+   font-weight: 700;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem black;
+   padding-bottom: 1rem;
+ }
+ .carousel-caption h3 {
+   font-size: 2rem;
+   text-shadow: .1rem .1rem .5rem black;
+   padding-bottom: 1.6rem;
+ }
+ .btn-lg {
+   border-width: medium;
+   border-radius: 4px;
+   font-size: 1.1rem;
+ }
+
+
+
+/*--- About Section ---*/
+#About h3{
+  display: block;
+  margin-bottom: .5rem;
+  width: auto;
+}
+
+#aboutMainPic {
+  box-shadow: 6px 10px 10px #bdbdbd;
+}
+.travelContury1 img {
+  width: 56px;
+  height: 56px;
+  margin-top: .8rem;
+}
+.travelContury2 img {
+  width: 48px;
+  height: 48px;
+}
+.about-bodyText {
+  margin: 1rem;
+  padding: .5rem;
+  line-height: 1.7rem;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.7rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #ffaa00;
+  margin: 0 auto 2.5rem;
+}
+
+
+/* -- Experience --*/
+
+
+#Experience.container-fluid {
+  width: auto;
+  height: auto;
+}
+#Experience.card-title {
+  margin-top: .5rem;
+}
+.card-text {
+  font-weight: 400;
+}
+
+.fa-calendar-alt{
+  font-size: 1.1rem;
+}
+
+.fas.fa-heart {
+  display: block;
+  color: red;
+  margin: 2rem;
+}
+
+
+/* -- Challenge --*/
+
+
+.challenge_container{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+}
+.btn.btn1 {
+  border: 1px solid #444;
+  border-radius: 4px;
+  margin: 0 .2rem;
+
+}
+.btn.btn1:hover {
+  background-color: #FFCA28;
+  border-color: #FFCA28;
+  color: #FFFFFF;
+}
+
+.btn.btn1.active, .btn.btn1:focus{
+  background-color: #FFC107;
+  border-color:  #FFC107;
+  color:#FFFFFF;
+  box-shadow: none;
+}
+
+.challenge_thai img , .challenge_okinawa img , .challenge_hitch img {
+  max-width: 100%;
+  transition: transform .4s ease;
+  padding: .4rem;
+}
+.challenge_thai_customer img {
+  max-width: 100%;
+  transition: transform .4s ease;
+  padding: .1rem;;
+
+}
+.row.no-padding [class*=col-] {
+  padding: 0;
+}
+.challenge_thai img:hover, .challenge_okinawa img:hover , .challenge_hitch img:hover {
+  transform: scale(1.07);
+}
+.challenge_thai, .challenge_okinawa, .challenge_hitch {
+  overflow: hidden;
+}
+
+
+
+ /*-- Start Contact Section --*/
+#memeContainer{
+  padding-bottom: 5rem;
+}
+#contactLogoImg{
+  width: 40%;
+
+}
+#snsButtonBox{
+  position: relative;
+  margin: 3.2rem;
+  padding: 0;
+}
+#snsButtonBox ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#snsButtonBox ul li {
+  list-style: none;
+}
+#snsButtonBox ul li a {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 32px;
+  text-align: center;
+
+  text-decoration: none;
+  color: #262626;
+  margin: 0 10px;
+  transition: .5s;
+
+
+}
+#snsButtonBox ul li a span {
+  position: absolute;
+  transition: transform .5s;
+}
+#snsButtonBox ul li a span:nth-child(1),
+#snsButtonBox ul li a span:nth-child(3){
+  width:100%;
+  height: 2px;
+  background: #262626;
+}
+#snsButtonBox ul li a span:nth-child(1){
+  top: 0;
+  left: 0;
+  transform-origin: right;
+
+}
+#snsButtonBox ul li a:hover span:nth-child(1){
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+  background: #ffaa00;
+}
+#snsButtonBox ul li a span:nth-child(3){
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+#snsButtonBox ul li a:hover span:nth-child(3){
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .5s;
+  background: #ffaa00;
+}
+
+
+#snsButtonBox ul li a span:nth-child(2),
+#snsButtonBox ul li a span:nth-child(4){
+  width:2px;
+  height:100%;
+  background: #262626;
+}
+#snsButtonBox ul li a span:nth-child(2){
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+#snsButtonBox ul li a:hover span:nth-child(2){
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform .5s;
+  background: #ffaa00;
+}
+#snsButtonBox ul li a span:nth-child(4){
+  top: 0;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+#snsButtonBox ul li a:hover span:nth-child(4){
+  transform: scaleY(1);
+  transform-origin: bottom;
+  transition: transform .5s;
+  background: #ffaa00;
+}
+
+
+/* -- End Contact Section --*/
+
+/* -- Start Footer --*/
+ footer {
+   background-color: #424242;
+   color: white;
+   padding: .8rem 0 1.5rem;
+   margin-top: 1rem;
+ }
+footer img {
+  height: 3rem;
+  margin: 1rem 1rem;
+}
+footer a{
+  color: white;
+}
+footer p {
+  margin-bottom: -.05rem;
+}
+
+
+hr.socket {
+  margin-top: 1rem;
+  border-top: .05rem solid #9E9E9E;
+  width: 100%;
+
+}
+.companyName {
+  display: inline-block;
+  margin-top: 1rem;
+  /* color: #FFC107; */
+  font-weight: 400;
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+
+
+/*-- Media Queries --*/
+@media (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1300px){
+
+  #toHome {
+    position: fixed;
+    bottom: 8px;
+    right: 30px;
+    text-decoration: none;
+    color: #ffaa00;
+    font-size: 2.5rem;
+
+  }
+}
